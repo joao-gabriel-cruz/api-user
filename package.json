@@ -1,0 +1,25 @@
+{
+  "scripts": {
+    "dev": "nodemon --watch \"src/**\" --ext \"ts,json\" --exec \"ts-node ./src/index.ts\"",
+    "build": "tsc",
+    "start": "node ./dist/index.js"
+  },
+  "name": "requere-user",
+  "version": "1.0.0",
+  "main": "./src/index.ts",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.16",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.31",
+    "@types/sqlite3": "^3.1.8",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "sqlite3": "^5.0.6"
+  }
+}
